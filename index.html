@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sirish Saraf | Portfolio</title>
+  <meta name="description" content="Sirish Saraf — B.Tech IT at MIT Manipal. C/C++ programmer, ODHS team member on Project PARIKSHIT student satellite, embedded systems builder.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,700;1,400&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ── Navigation ────────────────────────────── -->
+  <header class="site-header" id="top">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="#top">
+        <span class="brand-prompt">~/</span>sirish
+      </a>
+      <ul>
+        <li><a href="#about">about</a></li>
+        <li><a href="#education">education</a></li>
+        <li><a href="#skills">skills</a></li>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#interests">interests</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ── Hero ──────────────────────────────────── -->
+    <section class="hero" aria-labelledby="hero-name">
+      <div class="hero-inner">
+
+        <div class="hero-img-wrap">
+          <img class="photo" src="images/profile.jpg" alt="Portrait of Sirish Saraf" width="180" height="180">
+        </div>
+
+        <div class="hero-text">
+          <!-- Terminal prompt line -->
+          <div class="terminal-prompt" aria-hidden="true">
+            <span class="prompt-user">sirish</span><span class="prompt-at">@</span><span class="prompt-host">mit-manipal</span><span class="prompt-sep">:</span><span class="prompt-path">~</span><span class="prompt-dollar">$</span>
+            <span class="prompt-cmd type-cmd"> whoami</span>
+          </div>
+
+          <h1 id="hero-name" class="hero-name">
+            <span class="name-line-1 type-name-1">Sirish</span>
+            <span class="name-line-2 type-name-2">Saraf<span class="cursor-blink" aria-hidden="true">|</span></span>
+          </h1>
+
+          <!-- Second terminal line -->
+          <div class="terminal-prompt terminal-prompt-2" aria-hidden="true">
+            <span class="prompt-dollar">$</span>
+            <span class="prompt-cmd type-tagline"> cat intro.txt</span>
+          </div>
+
+          <!-- First-person introduction -->
+          <div class="hero-intro type-output">
+            <p class="intro-line">Hey — I'm a first-year IT student at <strong>MIT Manipal</strong>, and I build things that live close to the silicon.</p>
+            <p class="intro-line">I write <span class="hl">C</span> and <span class="hl">C++</span>, design embedded systems, and serve as an <span class="hl">ODHS team member</span> on <span class="hl">Project PARIKSHIT</span> — MIT Manipal's student satellite programme.</p>
+            <p class="intro-line muted">When I'm not pushing commits, I'm grinding competitive programming or poking at CTF challenges.</p>
+          </div>
+
+          <div class="hero-actions type-output-2">
+            <a class="btn btn-primary" href="#contact" id="cta-contact">get_in_touch()</a>
+            <a class="btn btn-ghost"  href="#projects" id="cta-projects">ls projects/</a>
+          </div>
+
+          <!-- Stats strip -->
+          <div class="stats-strip type-output-3" aria-label="Quick stats">
+            <div class="stat">
+              <span class="stat-val">8.88</span>
+              <span class="stat-label">CGPA</span>
+            </div>
+            <div class="stat-sep" aria-hidden="true">/</div>
+            <div class="stat">
+              <span class="stat-val">3</span>
+              <span class="stat-label">projects</span>
+            </div>
+            <div class="stat-sep" aria-hidden="true">/</div>
+            <div class="stat">
+              <span class="stat-val">SIH '24</span>
+              <span class="stat-label">hackathon</span>
+            </div>
+            <div class="stat-sep" aria-hidden="true">/</div>
+            <div class="stat">
+              <span class="stat-val">PARIKSHIT</span>
+              <span class="stat-label">satellite team</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="hero-scroll-hint" aria-hidden="true">
+        <span class="scroll-label">scroll</span>
+        <div class="scroll-bar"><div class="scroll-bar-fill"></div></div>
+      </div>
+    </section>
+
+    <!-- ── About ─────────────────────────────────── -->
+    <section id="about" class="block reveal" aria-labelledby="about-h">
+      <div class="block-label" aria-hidden="true">// 01 &mdash; about</div>
+      <h2 id="about-h">About me</h2>
+      <p>I'm a first-year B.Tech IT undergraduate at MIT Manipal with a taste for low-level problem solving. I enjoy working at the intersection of hardware and software — whether that's writing bare-metal C for a microcontroller or structuring a database query that needs to be fast.</p>
+      <p>On the satellite side, I'm an <strong>ODHS (On-board Data Handling System) team member</strong> on <strong>Project PARIKSHIT</strong>, MIT Manipal's student satellite initiative. I work on the data handling and storage subsystems that keep the satellite's housekeeping data reliable in orbit.</p>
+      <p>Outside formal projects I compete in programming contests, explore CTF security challenges, and pull up schematics for fun.</p>
+    </section>
+
+    <!-- ── Education ──────────────────────────────── -->
+    <section id="education" class="block reveal" aria-labelledby="edu-h">
+      <div class="block-label" aria-hidden="true">// 02 &mdash; education</div>
+      <h2 id="edu-h">Education</h2>
+      <ol class="timeline">
+        <li class="timeline-item">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-content">
+            <h3>B.Tech, Information Technology</h3>
+            <p class="meta">Manipal Institute of Technology &middot; 2024&ndash;2028</p>
+            <p>CGPA 8.88. Courses include operating systems, DBMS, design and analysis of algorithms, artificial intelligence, and management studies.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ── Skills ─────────────────────────────────── -->
+    <section id="skills" class="block reveal" aria-labelledby="skills-h">
+      <div class="block-label" aria-hidden="true">// 03 &mdash; skills</div>
+      <h2 id="skills-h">Skills</h2>
+      <div class="skill-grid">
+        <div class="skill-card">
+          <h3><span class="skill-key" aria-hidden="true">lang</span> Languages</h3>
+          <ul class="tags" role="list">
+            <li>C</li><li>C++</li><li>HTML</li><li>CSS</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3><span class="skill-key" aria-hidden="true">cs</span> Computer Science</h3>
+          <ul class="tags" role="list">
+            <li>Data structures</li><li>Algorithms</li><li>Operating systems</li><li>DBMS</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3><span class="skill-key" aria-hidden="true">hw</span> Domains</h3>
+          <ul class="tags" role="list">
+            <li>Embedded systems</li><li>ODHS / Satellite</li><li>Cybersecurity</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Projects ───────────────────────────────── -->
+    <section id="projects" class="block reveal" aria-labelledby="projects-h">
+      <div class="block-label" aria-hidden="true">// 04 &mdash; projects</div>
+      <h2 id="projects-h">Projects</h2>
+      <div class="project-grid">
+
+        <article class="project-card" aria-labelledby="proj-sih">
+          <div class="project-top">
+            <span class="project-num" aria-hidden="true">01</span>
+            <a class="project-gh" href="https://github.com/Siri-shh/PM-Internship-Scheme"
+               target="_blank" rel="noopener noreferrer" aria-label="PM Internship Scheme on GitHub">
+              <svg viewBox="0 0 16 16" fill="currentColor" width="14" height="14" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+              view source
+            </a>
+          </div>
+          <h3 id="proj-sih">PM Internship Scheme Portal</h3>
+          <p class="project-desc">🏆 Competed in Smart India Hackathon 2024 and built a full government internship portal — think LinkedIn, but for PM-endorsed student internships. Team BSoD shipped it in 36 hours of caffeine and code.</p>
+          <ul class="tags" role="list">
+            <li>SIH 2024</li><li>Web App</li><li>Government Tech</li>
+          </ul>
+        </article>
+
+        <article class="project-card" aria-labelledby="proj-hostel">
+          <div class="project-top">
+            <span class="project-num" aria-hidden="true">02</span>
+            <a class="project-gh" href="https://github.com/Siri-shh/Hostel_Management_System"
+               target="_blank" rel="noopener noreferrer" aria-label="Hostel Management System on GitHub">
+              <svg viewBox="0 0 16 16" fill="currentColor" width="14" height="14" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+              view source
+            </a>
+          </div>
+          <h3 id="proj-hostel">Hostel Management System</h3>
+          <p class="project-desc">🏠 How does a college hostel track 2,000 students, rooms, complaints, and mess dues? I built exactly that — in raw C, with file-based storage. No bloat, no frameworks, just pointers and grit.</p>
+          <ul class="tags" role="list">
+            <li>C</li><li>File I/O</li><li>Systems</li><li>CLI</li>
+          </ul>
+        </article>
+
+        <article class="project-card" aria-labelledby="proj-fairlens">
+          <div class="project-top">
+            <span class="project-num" aria-hidden="true">03</span>
+            <a class="project-gh" href="https://github.com/Siri-shh/FairLens-Bias-Detection"
+               target="_blank" rel="noopener noreferrer" aria-label="FairLens Bias Detection on GitHub">
+              <svg viewBox="0 0 16 16" fill="currentColor" width="14" height="14" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+              view source
+            </a>
+          </div>
+          <h3 id="proj-fairlens">FairLens — Bias Detection</h3>
+          <p class="project-desc">🔍 AI can be racist, sexist, and just plain unfair — and most of the time nobody notices. FairLens puts AI models under a microscope to catch hidden biases before they reach the real world.</p>
+          <ul class="tags" role="list">
+            <li>Python</li><li>ML</li><li>AI Ethics</li><li>Bias Detection</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ── Interests ───────────────────────────────── -->
+    <section id="interests" class="block reveal" aria-labelledby="interests-h">
+      <div class="block-label" aria-hidden="true">// 05 &mdash; interests</div>
+      <h2 id="interests-h">Interests</h2>
+      <ul class="interest-list" role="list">
+        <li><span class="interest-arrow" aria-hidden="true">&rarr;</span><div><strong>Competitive programming.</strong> Grinding contest problems in C++ — one accepted at a time.</div></li>
+        <li><span class="interest-arrow" aria-hidden="true">&rarr;</span><div><strong>Embedded electronics.</strong> Bringing up microcontroller boards, sensors, and the occasional angry peripheral.</div></li>
+        <li><span class="interest-arrow" aria-hidden="true">&rarr;</span><div><strong>Project PARIKSHIT.</strong> Building the ODHS subsystem for MIT Manipal's student-built satellite — real hardware, real orbit.</div></li>
+        <li><span class="interest-arrow" aria-hidden="true">&rarr;</span><div><strong>Security &amp; CTFs.</strong> Breaking things intentionally to understand how they should be built.</div></li>
+      </ul>
+    </section>
+
+    <!-- ── Contact ─────────────────────────────────── -->
+    <section id="contact" class="block reveal" aria-labelledby="contact-h">
+      <div class="block-label" aria-hidden="true">// 06 &mdash; contact</div>
+      <h2 id="contact-h">Contact</h2>
+      <p>The best way to reach me is by email. I'm also on GitHub and LinkedIn.</p>
+      <ul class="contact-list" role="list">
+        <li>
+          <a href="mailto:sirish.saraf@gmail.com" id="link-email" class="contact-link">
+            <span class="contact-key">email</span>
+            <span class="contact-value">sirish.saraf@gmail.com</span>
+            <span class="contact-copy" aria-label="Copy email" title="Copy to clipboard">⎘</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/Siri-shh" target="_blank" rel="noopener noreferrer" id="link-github" class="contact-link">
+            <span class="contact-key">github</span>
+            <span class="contact-value">Siri-shh</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/Sirish-Saraf" target="_blank" rel="noopener noreferrer" id="link-linkedin" class="contact-link">
+            <span class="contact-key">linkedin</span>
+            <span class="contact-value">Sirish-Saraf</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p><span class="footer-comment">/* built by Sirish Saraf · 2026 */</span></p>
+  </footer>
+
+  <script>
+    // ── Scroll reveal ──────────────────────────────────────
+    const revealEls = document.querySelectorAll('.reveal');
+    if ('IntersectionObserver' in window) {
+      const io = new IntersectionObserver(entries => {
+        entries.forEach(e => {
+          if (e.isIntersecting) { e.target.classList.add('is-visible'); io.unobserve(e.target); }
+        });
+      }, { threshold: 0.08 });
+      revealEls.forEach(el => io.observe(el));
+    } else {
+      revealEls.forEach(el => el.classList.add('is-visible'));
+    }
+
+    // ── Copy email to clipboard ────────────────────────────
+    const emailLink = document.getElementById('link-email');
+    if (emailLink) {
+      emailLink.addEventListener('click', e => {
+        e.preventDefault();
+        navigator.clipboard.writeText('sirish.saraf@gmail.com').then(() => {
+          const copy = emailLink.querySelector('.contact-copy');
+          if (copy) { copy.textContent = '✓'; setTimeout(() => { copy.textContent = '⎘'; }, 1800); }
+        }).catch(() => { window.location.href = 'mailto:sirish.saraf@gmail.com'; });
+      });
+    }
+
+    // ── Console Easter egg ─────────────────────────────────
+    const css = 'color:#c0392b;font-family:monospace;font-size:14px;line-height:1.5';
+    console.log('%c\n  ██████╗  █████╗ ██████╗ ██╗██╗  ██╗███████╗██╗  ██╗██╗████████╗\n  ██╔══██╗██╔══██╗██╔══██╗██║██║ ██╔╝██╔════╝██║  ██║██║╚══██╔══╝\n  ██████╔╝███████║██████╔╝██║█████╔╝ ███████╗███████║██║   ██║   \n  ██╔═══╝ ██╔══██║██╔══██╗██║██╔═██╗ ╚════██║██╔══██║██║   ██║   \n  ██║     ██║  ██║██║  ██║██║██║  ██╗███████║██║  ██║██║   ██║   \n  ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝   ╚═╝   \n', css);
+    console.log('%c  Hey curious dev 👋  Glad you opened the inspector.', css);
+    console.log('%c  sirish@mit-manipal:~$ cat secret.txt\n  → ODHS team member, Project PARIKSHIT 🛰️\n  → B.Tech IT, MIT Manipal, batch of 2028\n  → reach me: sirish.saraf@gmail.com\n', css);
+  </script>
+
+</body>
+</html>
