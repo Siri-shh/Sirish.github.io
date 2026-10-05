@@ -190,6 +190,7 @@ main {
   width: 180px; height: 180px;
   border-radius: var(--r-md);
   object-fit: cover;
+  object-position: center 20%;
   display: block;
   border: 1px solid var(--ink-100);
   /* P2 fix: grayscale only on hover, not at rest */
